@@ -806,7 +806,7 @@ _bl_sections = {
     "representacion": (
         "El clasificador calcula: sigma(theta^T · x) &gt;= 0.5 → y_hat = 1 (Benigno), "
         "con theta ∈ R^30 y x ∈ R^30. La funcion de costo maximiza la log-verosimilitud: "
-        "L(theta) = (1/n) Σᵢ [yᵢ · log σ(θᵀxᵢ) + (1-yᵢ) · log(1-σ(θᵀxᵢ))]. "
+        "L(theta) = (1/n) Σ_i [y_i · log σ(θ^Tx_i) + (1-y_i) · log(1-σ(θ^Tx_i))]. "
         "Sin regularizacion (C→∞ equivalente)."
     ),
     "alternativas": [
